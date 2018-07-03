@@ -1,0 +1,7 @@
+<h2>Upload an image and get a prediction if there is a face in it:</h2><br>
+<form action="/FaceDetection/" enctype="multipart/form-data" method="post" >{% csrf_token %}
+    {{ form }}<br><br>
+    <input type="submit" value="submit">
+</form><br>
+<br>
+<p>{{ result }}</p>
