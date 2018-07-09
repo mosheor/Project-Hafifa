@@ -1,6 +1,5 @@
 import torch
 from flask import Flask
-import face_alignment
 import cv2
 from minioClient import download_file
 import os
@@ -31,12 +30,5 @@ if __name__ == '__main__':
     model_name = 'FaceAlignment.model'
     model_path = os.path.dirname(os.path.abspath(__file__)) + '/' + model_name
 
-    if not os.path.exists(model_name):
-        fa = face_alignment.FaceAlignment(face_alignment.LandmarksType._2D,
-                                          enable_cuda=False,
-                                          flip_input=False)
-        torch.save(fa, model_path)
-    else:
-        fa = torch.load(model_path)
-
+    fa = torch.load(model_path)
     app.run(host='0.0.0.0', port=5000)
