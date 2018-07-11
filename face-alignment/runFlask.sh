@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-sudo docker kill FlaskServer
-sudo docker rm FlaskServer
-sudo docker image rm flask_server_image
+#sudo docker kill FlaskServer
+#sudo docker rm FlaskServer
+#sudo docker image rm flask_server_image
 sudo docker build -t flask_server_image .
 sudo docker run -d -p 5000:5000 --name FlaskServer \
  -e OBJ_STORE_IP=172.17.0.2 \
