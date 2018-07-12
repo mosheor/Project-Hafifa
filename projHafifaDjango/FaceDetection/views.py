@@ -15,7 +15,7 @@ def face_detection(request):
         if image_form.is_valid():
             upload(request.FILES['image'], upload_name)
             http_request = PoolManager()
-            response = http_request.request('GET', 'http://%s:5000/pred/%s/%s' % (os.environ['FLASK_IP'], 'images', upload_name))
+            response = http_request.request('GET', 'http://%s:5000/predict/%s/%s' % (os.environ['FLASK_IP'], 'images', upload_name))
             result = response.data.decode('utf-8')
     else:
         image_form = UploadFileForm()
