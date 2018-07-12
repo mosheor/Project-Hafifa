@@ -1,4 +1,4 @@
-#!/home/bigdata/FaceDetection/projHafifa/venv/bin/python
+#!/home/bigdata/Desktop/Project-Hafifa/projHafifaDjango/venv/bin/python
 
 import sys
 import json
