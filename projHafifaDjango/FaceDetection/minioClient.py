@@ -6,8 +6,8 @@ import botocore
 
 s3 = boto3.client('s3',
     endpoint_url='http://%s:9000' % (os.environ['OBJ_STORE_IP']),
-    aws_access_key_id='2Z078LGDGRZDL242YPGD',
-    aws_secret_access_key='l4kuZM+GMbC3A/HJw4eU/CTSBgSI2rpc4dcDqbC3',
+    aws_access_key_id=os.environ['KEY_ID'],
+    aws_secret_access_key=os.environ['SECRET_KEY'],
     config=Config(signature_version='s3v4'))
 
 bucket = 'images'

@@ -11,11 +11,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FaceDetection/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="399">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -23,16 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="runDjango.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runDjango.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runDjango.sh">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="DockerFile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DockerFile">
+      <file leaf-file-name="Dockerfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -60,14 +64,16 @@
         <option value="$PROJECT_DIR$/FaceDetection/form.py" />
         <option value="$PROJECT_DIR$/FaceDetection/admin.py" />
         <option value="$PROJECT_DIR$/FaceDetection/forms.py" />
-        <option value="$PROJECT_DIR$/FaceDetection/minioClient.py" />
         <option value="$PROJECT_DIR$/FaceDetection/usefulFunctions.py" />
         <option value="$PROJECT_DIR$/projHafifa/settings.py" />
         <option value="$PROJECT_DIR$/FaceDetection/templates/FaceDetection/imageForm.html" />
         <option value="$PROJECT_DIR$/projHafifa/urls.py" />
-        <option value="$PROJECT_DIR$/DockerFile" />
         <option value="$PROJECT_DIR$/runServer.sh" />
         <option value="$PROJECT_DIR$/FaceDetection/views.py" />
+        <option value="$PROJECT_DIR$/DockerFile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/runDjango.sh" />
+        <option value="$PROJECT_DIR$/FaceDetection/minioClient.py" />
       </list>
     </option>
   </component>
@@ -93,6 +99,11 @@
               <item name="projHafifaDjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="projHafifaDjango" type="462c0819:PsiDirectoryNode" />
               <item name="FaceDetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projHafifaDjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projHafifaDjango" type="462c0819:PsiDirectoryNode" />
+              <item name="projHafifa" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection/minioClient.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FaceDetection/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -336,20 +340,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/manage.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projHafifa/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FaceDetection/templates/FaceDetection/imageForm.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -368,13 +358,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/py/py.py" />
-    <entry file="file://$PROJECT_DIR$/DockerFile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runServer.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -382,18 +365,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FaceDetection/views.py">
+    <entry file="file://$PROJECT_DIR$/DockerFile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="64" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection/minioClient.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runDjango.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projHafifa/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceDetection/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runDjango.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
