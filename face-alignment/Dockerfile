@@ -1,7 +1,13 @@
-FROM fedora:28
+FROM registry.access.redhat.com/rhscl/python-36-rhel7
 COPY . /
 USER root
-RUN yum install -y python3-devel cmake gcc gcc-c++ make libXext libSM libXrender && \
-pip3.6 install /pipPackages/*
+WORKDIR /
+RUN subscription-manager register --username=DoctorBD --password=doctore22 && \
+subscription-manager attach --auto
+RUN yum install -y cmake python3-devel libXext libSM libXrender
+# gcc gcc-c++ make zlib-devel openssl \
+#openssl-devel  && \
+RUN pip3.6 install /pipPackages/*
 EXPOSE 5000
-CMD ["python3", "/flask_server.py"]
+#CMD ["echo", "hi there"]
+CMD ["python3.6", "/flask_server.py"]

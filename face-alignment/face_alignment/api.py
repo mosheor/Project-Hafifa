@@ -1,9 +1,7 @@
 from __future__ import print_function
-import os
 import glob
 import dlib
 import torch
-import torch.nn as nn
 from enum import Enum
 from skimage import io
 try:
