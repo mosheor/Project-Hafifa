@@ -30,7 +30,9 @@ if __name__ == '__main__':
     model_name = os.environ['MODEL_NAME']
     model_path = os.path.dirname(os.path.abspath(__file__)) + '/' + model_name
 
-    download_file("models", model_name, model_path)
+    if(not os.path.exists(model_path)):
+        download_file("models", model_name, model_path)
+
     fa = torch.load(model_path)
 
     app.run(host='0.0.0.0', port=5000)
