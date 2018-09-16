@@ -1,0 +1,12 @@
+Flask (face-alignment):
+boto3
+dlib
+Flask
+opencv_python
+scikit_image
+torch==0.3.1 (version is important!)
+
+Django (projHafifaDjango):
+boto3
+Django
+urllib3
