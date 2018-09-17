@@ -2,7 +2,7 @@ FROM registry.access.redhat.com/rhscl/python-36-rhel7
 COPY . /
 USER root
 WORKDIR /
-RUN subscription-manager register --username=DoctorBD --password=doctore22 && \
+RUN subscription-manager register --username=---- --password=---- && \
 subscription-manager attach --auto
 RUN yum install -y cmake python3-devel libXext libSM libXrender
 # gcc gcc-c++ make zlib-devel openssl \
